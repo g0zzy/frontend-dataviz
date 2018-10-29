@@ -15,3 +15,5 @@ See the home page:
 
 When clicked on the plus sign - you get the details, i.e. the answers that the submission consists of. <br>
 You can view these on a map by clicking on the "Map" button on top right. 
+
+*** ProjectDescription.docx has full detail (with pictures) about how the app works ***
