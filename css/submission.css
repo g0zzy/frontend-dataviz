@@ -1,0 +1,122 @@
+body{
+	font-family:'Raleway',sans-serif;
+	font-size: 14px;
+	line-height: 1.43;
+	color: #5f6a6d;
+	background-color: #f0f4f7;
+}
+
+body i {
+	font-family:'FontAwesome';
+	font-style: normal;
+	font-size: 17px;
+}
+
+td.details-control {
+	cursor: pointer;
+	width: 20px;
+	text-align:center;
+}
+
+tr.shown td.details-control {
+	text-align:center;
+}
+
+table tr:first-child td {
+	border-top: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	padding: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+	outline: 0;
+}
+
+.answerTable {
+	margin: 10px 0;
+}
+
+	.answerTable tr:nth-child(even) td {
+		border-top: none;
+	}
+
+.container {
+	margin-bottom: 30px;
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.answerImg {
+	cursor: pointer;
+}
+
+.btn-primary {
+	background-color: #ff6738;
+	border-color: #ccc;
+}
+
+.btn-primary.focus, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active,
+.btn-primary:active:hover, .btn-primary.active:hover, .btn-primary:active:focus, .btn-primary.active:focus,
+.btn-primary:active.focus, .btn-primary.active.focus, .btn-primary:active:focus:hover 
+{
+	background-color: #eb3700;
+	border-color: #ccc;
+	outline: 0; 
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, 
+.pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #eb3700;
+	border-color: #ccc;
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: #eb3700;
+	outline: none !important;
+	margin-left: 0;
+}
+
+.pagination>li>a:hover,.pagination>li>span:hover,.pagination>li>a:focus,.pagination>li>span:focus{
+	color:#eb3700;
+	background-color:#eee;
+	border-color:#ddd
+}
+
+.modal-header {
+	background: #eb3700;
+}
+
+	.modal-header .close {
+		font-size: 30px;
+		color: white;
+	 }
+
+.modal-body {
+	position: relative; 
+}
+
+.highlight { 
+	background-color: #ffe6de; 
+}
+	 
+#buttonContainer {
+	margin: 0;
+	padding: 0;
+}
+
+#submissionContainer, #mapContainer {
+	background-color: white;
+}
+
+#submissionTable thead tr {
+	background: #ff6738;
+	color: white;
+}
+
+#googleMap{
+	width: 100%;
+	height: 475px;
+}
